@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
         if r.status_code < 200 or r.status_code > 299:
             print 'HTTP call failed, exiting...'
-            sys.exit(r.status_code)
+            sys.exit(2)
 
         sys.exit(0)
         
